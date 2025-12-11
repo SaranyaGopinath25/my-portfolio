@@ -23,7 +23,7 @@ const projects = [
     description:
       "A Shopify app that enables webshops to send SMS messages to customers using Twilio API. Built with React frontend and Node.js backend, featuring real-time message tracking and analytics.",
     technologies: ["React", "Node.js", "Twilio API", "Shopify"],
-    github: "#",
+    github: "https://github.com/SaranyaGopinath25/Shopify-Twilio",
     demo: "#",
     gradient: "from-purple-500/20 to-pink-500/20",
   },
@@ -41,7 +41,7 @@ const projects = [
     description:
       "A tool to verify email addresses in bulk, checking for validity, deliverability, and potential spam traps. Helps businesses maintain clean email lists and improve deliverability rates.",
     technologies: ["React", "Node.js", "API Integration"],
-    github: "#",
+    github: "https://github.com/SaranyaGopinath25/EmailVerify",
     demo: "#",
     gradient: "from-orange-500/20 to-red-500/20",
   },

@@ -10,7 +10,6 @@ const stats = [
   { icon: Briefcase, label: "Years Experience", value: "8+" },
   { icon: Code2, label: "Projects Completed", value: "50+" },
   { icon: Award, label: "Technologies", value: "10+" },
-  { icon: Users, label: "Happy Clients", value: "30+" },
 ];
 
 export default function About() {
@@ -79,7 +78,7 @@ export default function About() {
           {/* Stats Grid */}
           <motion.div
             variants={staggerContainer}
-            className="grid grid-cols-2 md:grid-cols-4 gap-6"
+            className="grid grid-cols-2 md:grid-cols-3 gap-6"
           >
             {stats.map((stat, index) => (
               <motion.div key={index} variants={fadeInUp}>
