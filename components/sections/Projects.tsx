@@ -81,28 +81,6 @@ export default function Projects() {
                 custom={index}
               >
                 <Card className="group h-full bg-card border-border hover:border-primary transition-all duration-300 overflow-hidden">
-                  {/* Project Image/Gradient */}
-                  <div
-                    className={`h-48 bg-gradient-to-br ${project.gradient} relative overflow-hidden`}
-                  >
-                    <div className="absolute inset-0 bg-background/50 backdrop-blur-sm flex items-center justify-center">
-                      <div className="text-center p-6">
-                        <p className="text-sm text-muted-foreground mb-2">
-                          Project Screenshot
-                        </p>
-                        <p className="text-xs text-muted-foreground">
-                          Upload via Assets or add demo link
-                        </p>
-                      </div>
-                    </div>
-                    <motion.div
-                      className="absolute inset-0 bg-primary/10"
-                      initial={{ opacity: 0 }}
-                      whileHover={{ opacity: 1 }}
-                      transition={{ duration: 0.3 }}
-                    />
-                  </div>
-
                   {/* Project Content */}
                   <div className="p-6 space-y-4">
                     <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">

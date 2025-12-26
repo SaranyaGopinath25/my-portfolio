@@ -105,6 +105,14 @@ export default function Hero() {
             </span>
           </motion.h1>
 
+          {/* Tagline */}
+          <motion.h2
+            variants={fadeInUp}
+            className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground mb-6"
+          >
+            Full-Stack Developer with a Passion for Frontend
+          </motion.h2>
+
           {/* Typing animation role */}
           <motion.div
             variants={fadeInUp}
@@ -129,9 +137,8 @@ export default function Hero() {
             variants={fadeInUp}
             className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            Full-stack developer with 8+ years of experience in SaaS companies,
-            passionate about creating exceptional user experiences with React and
-            modern web technologies.
+            Building exceptional web experiences with 8+ years in SaaS development.
+            Specialized in React and modern frontend technologies.
           </motion.p>
 
           {/* CTA Buttons */}

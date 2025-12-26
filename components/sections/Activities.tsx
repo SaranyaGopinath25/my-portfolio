@@ -96,6 +96,12 @@ const activities = [
         width: 800,
         height: 600,
       },
+      {
+        src: "/avatars/HYF-JuleHygge.jpeg",
+        alt: "HackYourFuture team",
+        width: 800,
+        height: 600,
+      },
     ],
     gradient: "from-indigo-500/20 to-purple-500/20",
   },
@@ -187,6 +193,22 @@ const activities = [
     ],
     gradient: "from-yellow-500/20 to-amber-500/20",
   },
+  {
+    title: "A2B Danish Class - JuleHygge Celebration",
+    description:
+      "Studying Danish Module 2 at A2B with fellow international students, celebrating Danish culture and traditions through JuleHygge festivities.",
+    icon: Users,
+    logo: "/avatars/A2B-logo.png",
+    photos: [
+      {
+        src: "/A2B-Dansk-JuleHygge.jpeg",
+        alt: "A2B Danish class JuleHygge celebration",
+        width: 800,
+        height: 600,
+      },
+    ],
+    gradient: "from-red-500/20 to-green-500/20",
+  },
 ];
 
 export default function Activities() {
@@ -248,13 +270,14 @@ export default function Activities() {
                   {/* Photo Carousel */}
                   <div className="relative bg-background/50">
                     {activity.photos.length === 1 ? (
-                      <div className="relative w-full h-64 md:h-80 bg-muted/50">
+                      <div className="relative w-full h-64 md:h-80 bg-muted/50" suppressHydrationWarning>
                         <Image
                           src={activity.photos[0].src}
                           alt={activity.photos[0].alt}
                           fill
                           className="object-contain"
                           sizes="(max-width: 768px) 100vw, 50vw"
+                          unoptimized
                         />
                       </div>
                     ) : (
@@ -262,13 +285,14 @@ export default function Activities() {
                         <CarouselContent>
                           {activity.photos.map((photo, photoIndex) => (
                             <CarouselItem key={photoIndex}>
-                              <div className="relative w-full h-64 md:h-80 bg-muted/50">
+                              <div className="relative w-full h-64 md:h-80 bg-muted/50" suppressHydrationWarning>
                                 <Image
                                   src={photo.src}
                                   alt={photo.alt}
                                   fill
                                   className="object-contain"
                                   sizes="(max-width: 768px) 100vw, 50vw"
+                                  unoptimized
                                 />
                               </div>
                             </CarouselItem>

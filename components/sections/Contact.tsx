@@ -30,7 +30,7 @@ const contactInfo = [
     icon: MapPin,
     label: "Location",
     value: "Aarhus, Denmark",
-    href: null,
+    href: "https://www.google.com/maps/place/Aarhus,+Denmark",
   },
 ];
 

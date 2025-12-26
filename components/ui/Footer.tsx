@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer className="py-8 border-t border-border bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,9 +16,8 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="text-sm text-muted-foreground text-center md:text-left"
-            suppressHydrationWarning
           >
-            © {new Date().getFullYear()} Saranya Gopinath. Built with{" "}
+            © {year} Saranya Gopinath. Built with{" "}
             <Heart className="inline h-4 w-4 text-primary fill-primary" /> using
             Next.js & Tailwind CSS
           </motion.p>
