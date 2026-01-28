@@ -97,10 +97,11 @@ export default function Skills() {
                         className="group"
                       >
                         <div className="flex flex-col items-center gap-3 p-4 rounded-lg bg-background/50 hover:bg-background transition-colors">
-                          <div className="relative" suppressHydrationWarning>
+                          <div className="relative">
                             <skill.icon
                               className="w-12 h-12 transition-all duration-300"
                               style={{ color: skill.color }}
+                              suppressHydrationWarning
                             />
                             <div
                               className="absolute inset-0 blur-xl opacity-0 group-hover:opacity-50 transition-opacity"

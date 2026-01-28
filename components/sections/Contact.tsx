@@ -124,7 +124,7 @@ export default function Contact() {
                   Get a detailed overview of my experience, skills, and
                   accomplishments.
                 </p>
-                <a href="/avatars/Saranya%20Gopinath%20-%20Danske%20Bank%20CV.pdf" download="Saranya_Gopinath_CV.pdf">
+                <a href="/api/resume">
                   <Button
                     size="lg"
                     className="bg-primary text-primary-foreground hover:bg-primary/90 mt-4"
@@ -133,10 +133,6 @@ export default function Contact() {
                     Download Resume
                   </Button>
                 </a>
-                <p className="text-xs text-muted-foreground mt-4">
-                  Upload your resume PDF via the Assets panel and update the link
-                  above
-                </p>
               </div>
             </Card>
           </motion.div>

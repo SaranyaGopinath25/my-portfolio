@@ -14,11 +14,18 @@ const roles = [
 ];
 
 export default function Hero() {
+  const [mounted, setMounted] = useState(false);
   const [currentRole, setCurrentRole] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    
     const role = roles[currentRole];
     const timeout = setTimeout(() => {
       if (!isDeleting) {
@@ -38,7 +45,7 @@ export default function Hero() {
     }, isDeleting ? 50 : 100);
 
     return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, currentRole]);
+  }, [displayText, isDeleting, currentRole, mounted]);
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
