@@ -28,18 +28,18 @@ const projects = [
     gradient: "from-purple-500/20 to-pink-500/20",
   },
   {
-    title: "Habit Tracking App",
+    title: "Shopping Cart App",
     description:
-      "A comprehensive habit tracking application that helps users build and maintain positive habits. Features include daily check-ins, streak tracking, and progress visualization with Firebase backend.",
-    technologies: ["React", "Firebase", "JavaScript"],
-    github: "#",
+      "A scalable shopping cart app built with React and Tailwind CSS. Features product listings, add-to-cart functionality, and persistent cart storage using localStorage.",
+    technologies: ["React", "Tailwind", "localStorage"],
+    github: "https://github.com/SaranyaGopinath25/Shopping-Cart-App",
     demo: "#",
     gradient: "from-green-500/20 to-emerald-500/20",
   },
   {
     title: "Email Verifier",
     description:
-      "A tool to verify email addresses in bulk, checking for validity, deliverability, and potential spam traps. Helps businesses maintain clean email lists and improve deliverability rates.",
+      "A tool to verify email addresses, checking for validity, deliverability, and potential spam traps. Helps businesses maintain clean email lists and improve deliverability rates.",
     technologies: ["React", "Node.js", "API Integration"],
     github: "https://github.com/SaranyaGopinath25/EmailVerify",
     demo: "#",
@@ -139,7 +139,7 @@ export default function Projects() {
             ))}
           </div>
 
-          {/* Note about placeholders */}
+          {/* Note about placeholders 
           <motion.div
             variants={fadeInUp}
             className="mt-12 text-center p-6 bg-card/50 rounded-lg border border-border"
@@ -149,7 +149,7 @@ export default function Projects() {
               and demo links are currently placeholders. Update them with your
               actual project URLs.
             </p>
-          </motion.div>
+          </motion.div>*/}
         </motion.div>
       </div>
     </section>
