@@ -171,7 +171,6 @@ const activities = [
     ],
     gradient: "from-green-500/20 to-emerald-500/20",
   },
-  ,
   {
     title: "Limbo Company Visit",
     description:
@@ -194,7 +193,6 @@ const activities = [
     ],
     gradient: "from-green-500/20 to-emerald-500/20",
   },
-  ,
   {
     title: "JYSK Company Visit",
     description:
