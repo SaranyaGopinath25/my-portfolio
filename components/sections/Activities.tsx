@@ -209,13 +209,13 @@ const activities = [
         height: 600,
       },
       {
-        src: "/avatars/JYSK-visit2.jpeg.jpg",
+        src: "/avatars/JYSK-visit2.jpeg",
         alt: "JYSK company visit",
         width: 800,
         height: 600,
       },
       {
-        src: "/avatars/JYSK-visit3.jpeg.jpg",
+        src: "/avatars/JYSK-visit3.jpeg",
         alt: "JYSK company visit",
         width: 800,
         height: 600,
