@@ -85,6 +85,12 @@ const activities = [
     logo: "/avatars/Hack_your_future.webp",
     photos: [
       {
+        src: "/avatars/t-shirt-day.jpg",
+        alt: "HackYourFuture team",
+        width: 800,
+        height: 600,
+      },
+      {
         src: "/avatars/HYFTeam.jpeg",
         alt: "HackYourFuture team",
         width: 800,
