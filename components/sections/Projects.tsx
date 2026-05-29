@@ -24,7 +24,7 @@ const projects = [
       "A tool for capturing screenshots of websites with a clean and intuitive interface. Built with React and Node.js, featuring responsive design and easy-to-use functionality.",
     technologies: ["Javascript", "HTML", "CSS"],
     github: "https://github.com/SaranyaGopinath25/Website-Screenshot-App",
-    demo: "https://saranyagopinath25.github.io/Website-Screenshot-Tool/",
+    demo: "https://website-screenshot.netlify.app/",
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   
@@ -43,7 +43,7 @@ const projects = [
       "A tool for converting currencies in real-time with up-to-date exchange rates.",
     technologies: ["Javscript", "HTML", "CSS", "API Integration"],
     github: "https://github.com/SaranyaGopinath25/Currency-converter",
-    demo: "https://saranyagopinath25.github.io/Currency-Converter/",
+    demo: "https://currency-converter-hyf.netlify.app/",
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   {
@@ -61,7 +61,7 @@ const projects = [
       "A tool for capturing screenshots of websites with a clean and intuitive interface. Built with React and Node.js, featuring responsive design and easy-to-use functionality.",
     technologies: ["Javascript", "HTML", " CSS"],
     github: "https://github.com/SaranyaGopinath25/movie-dashboard",
-    demo: "https://saranyagopinath25.github.io/Website-Screenshot-Tool/",
+    demo: "https://movie-dashboard-hyf.netlify.app/",
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   {
@@ -70,7 +70,7 @@ const projects = [
       "A fast-paced game where players test their reflexes and speed in a thrilling challenge.",
     technologies: ["HTML", "JavaScript", "CSS"],
     github: "https://github.com/SaranyaGopinath25/fastest-presser-game",
-    demo: "https://saranyagopinath25.github.io/Fastest-Presser-Game/",
+    demo: "#",
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   {
@@ -79,7 +79,7 @@ const projects = [
       "A scalable shopping cart app built with React and Tailwind CSS. Features product listings, add-to-cart functionality, and persistent cart storage using localStorage.",
     technologies: ["React", "Tailwind", "localStorage"],
     github: "https://github.com/SaranyaGopinath25/Shopping-Cart-App",
-    demo: "#",
+    demo: "https://saranyagopinath25.github.io/Shopping-Cart-App/",
     gradient: "from-green-500/20 to-emerald-500/20",
   },
   {
@@ -88,7 +88,7 @@ const projects = [
       "A tool for capturing screenshots of websites with a clean and intuitive interface. Built with React and Node.js, featuring responsive design and easy-to-use functionality.",
     technologies: ["React", "Bootstrap", "Typescript"],
     github: "https://github.com/SaranyaGopinath25/Reminder-app-react-ts",
-    demo: "https://saranyagopinath25.github.io/Website-Screenshot-Tool/",
+    demo: "https://reminder-app-saranya.netlify.app/",
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   {
