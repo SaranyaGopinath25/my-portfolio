@@ -85,6 +85,12 @@ const activities = [
     logo: "/avatars/Hack_your_future.webp",
     photos: [
       {
+        src: "/avatars/t-shirt-day.jpg",
+        alt: "HackYourFuture team",
+        width: 800,
+        height: 600,
+      },
+      {
         src: "/avatars/HYFTeam.jpeg",
         alt: "HackYourFuture team",
         width: 800,
@@ -159,6 +165,58 @@ const activities = [
       {
         src: "/avatars/mjolner.jpg",
         alt: "Mjølner company visit",
+        width: 800,
+        height: 600,
+      },
+    ],
+    gradient: "from-green-500/20 to-emerald-500/20",
+  },
+  ,
+  {
+    title: "Limbo Company Visit",
+    description:
+      "The visit to Limbo sparked my interest in CSS through an eye-opening deep dive into its possibilities and best practices.",
+    icon: Building2,
+    logo: "/avatars/limbo_works_logo.jpeg",
+    photos: [
+      {
+        src: "/avatars/limbo-visit1.jpg",
+        alt: "Limbo company visit",
+        width: 800,
+        height: 600,
+      },
+      {
+        src: "/avatars/limbo-visit2.png",
+        alt: "Limbo company visit",
+        width: 800,
+        height: 600,
+      },
+    ],
+    gradient: "from-green-500/20 to-emerald-500/20",
+  },
+  ,
+  {
+    title: "JYSK Company Visit",
+    description:
+      "This visit to JYSK gave me practical insight in real tech world tech culture, teamwork and how professionals apply development, design, and cybersecurity in modern organisations.",
+    icon: Building2,
+    logo: "/avatars/JYSK-logo.png",
+    photos: [
+      {
+        src: "/avatars/JYSK-visit1.jpeg",
+        alt: "JYSK company visit",
+        width: 800,
+        height: 600,
+      },
+      {
+        src: "/avatars/JYSK-visit2.jpeg.jpg",
+        alt: "JYSK company visit",
+        width: 800,
+        height: 600,
+      },
+      {
+        src: "/avatars/JYSK-visit3.jpeg.jpg",
+        alt: "JYSK company visit",
         width: 800,
         height: 600,
       },

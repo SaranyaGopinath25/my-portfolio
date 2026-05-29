@@ -10,7 +10,6 @@ const roles = [
   "Full-Stack Developer",
   "React Enthusiast",
   "Frontend Specialist",
-  "Problem Solver"
 ];
 
 export default function Hero() {

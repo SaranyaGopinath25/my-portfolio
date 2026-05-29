@@ -67,7 +67,7 @@ export default function About() {
               <Card className="p-6 bg-card border-border overflow-hidden">
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/Portfolio-photo.jpeg"
+                    src="/Profile-pic.jpeg"
                     alt="Saranya Gopinath"
                     className="w-full h-auto object-cover"
                   />

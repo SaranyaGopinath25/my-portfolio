@@ -4,7 +4,7 @@ import { join } from 'path';
 
 export async function GET() {
   try {
-    const filePath = join(process.cwd(), 'public', 'Saranya-CV-2026.pdf');
+    const filePath = join(process.cwd(), 'public', 'Saranya_Gopinath_CV.pdf');
     const fileBuffer = await readFile(filePath);
 
     return new NextResponse(fileBuffer, {
