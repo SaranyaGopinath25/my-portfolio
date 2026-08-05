@@ -28,6 +28,15 @@ const projects = [
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   {
+    title: "Memory Game",
+    description:
+      "An interactive memory card game built with React, featuring smooth animations, score tracking, and multiple difficulty levels. A fun way to test and improve memory skills.",
+    technologies: ["HTML", "JavaScript", "CSS"],
+    github: "https://github.com/SaranyaGopinath25/HYF-Memory-game",
+    demo: "https://hyf-memory-game-triple-js.netlify.app/",
+    gradient: "from-blue-500/20 to-cyan-500/20",
+  },
+  {
     title: "Website Screenshot Tool",
     description:
       "A tool for capturing screenshots of websites with a clean and intuitive interface. Built with React and Node.js, featuring responsive design and easy-to-use functionality.",
@@ -37,15 +46,7 @@ const projects = [
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
   
-  {
-    title: "Memory Game",
-    description:
-      "An interactive memory card game built with React, featuring smooth animations, score tracking, and multiple difficulty levels. A fun way to test and improve memory skills.",
-    technologies: ["HTML", "JavaScript", "CSS"],
-    github: "https://github.com/SaranyaGopinath25/Memory-game",
-    demo: "https://saranyagopinath25.github.io/Memory-game/",
-    gradient: "from-blue-500/20 to-cyan-500/20",
-  },
+  
   {
     title: "Currency Converter",
     description:
