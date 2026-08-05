@@ -18,7 +18,7 @@ const activities = [
   {
     title: "Techstars Startup Aarhus",
     description:
-      "Active participant in Techstars Startup Aarhus ecosystem, networking with entrepreneurs and learning about startup culture.",
+      "Active participant in Techstars Startup Weekend Aarhus, networking with entrepreneurs and learning about startup culture. Our team secured the 2nd place by collaborating to transform an idea into a startup concept within 54 hours.",
     icon: Rocket,
     logo: "/avatars/Techstar.png",
     photos: [
@@ -52,7 +52,7 @@ const activities = [
   {
     title: "ReDI School Program",
     description:
-      "Participated in ReDI School's digital education program, contributing to tech education and community building.",
+      "Completed ReDI School’s React course, strengthened my understanding of the Danish work culture through company visits, and developed my career skills through coaching and professional networking.",
     icon: Users,
     logo: "/avatars/redi-logo.jpeg",
     photos: [
@@ -80,24 +80,24 @@ const activities = [
   {
     title: "HackYourFuture Program",
     description:
-      "Engaged with HackYourFuture community, mentoring aspiring developers and sharing knowledge in web development.",
+      "Completed HackYourFuture’s Web Development program to strengthen my coding skills with modern technologies, build professional networks, and develop a real-time shopping app in collaboration with Salling Group.",
     icon: Users,
     logo: "/avatars/Hack_your_future.webp",
     photos: [
       {
+        src: "/avatars/HYF-Final-Proj-Pres.jpeg",
+        alt: "HYF Final Project",
+        width: 800,
+        height: 600,
+      },
+      {
+        src: "/avatars/HYF-Graduation.jpeg",
+        alt: "HYF Graduation",
+        width: 800,
+        height: 600,
+      },
+      {
         src: "/avatars/t-shirt-day.jpg",
-        alt: "HackYourFuture team",
-        width: 800,
-        height: 600,
-      },
-      {
-        src: "/avatars/HYFTeam.jpeg",
-        alt: "HackYourFuture team",
-        width: 800,
-        height: 600,
-      },
-      {
-        src: "/avatars/HYFSession.png",
         alt: "HackYourFuture team",
         width: 800,
         height: 600,
@@ -111,6 +111,29 @@ const activities = [
     ],
     gradient: "from-indigo-500/20 to-purple-500/20",
   },
+  {
+    title: "IT-Day Aarhus 2026",
+    description:
+      "Participated in IT-Day Aarhus 2026, connecting with Danish tech companies, exploring career opportunities, and gaining insights into the local IT industry.",
+    icon: Building2,
+    logo: "/avatars/IT-Day-logo.png",
+    photos: [
+      {
+        src: "/avatars/IT-Day-Aarhus.jpg",
+        alt: "IT-Day Aarhus 2026",
+        width: 800,
+        height: 600,
+      },
+      {
+        src: "/avatars/IT-Day-Aarhus-2026.jpeg",
+        alt: "IT-Day Aarhus 2026",
+        width: 800,
+        height: 600,
+      },
+    ],
+    gradient: "from-blue-500/20 to-cyan-500/20",
+  },
+
   {
     title: "iPaper Company Visit",
     description:
@@ -191,7 +214,7 @@ const activities = [
         height: 600,
       },
     ],
-    gradient: "from-green-500/20 to-emerald-500/20",
+    gradient: "from-pink-500/20 to-rose-500/20",
   },
   {
     title: "JYSK Company Visit",
@@ -219,7 +242,7 @@ const activities = [
         height: 600,
       },
     ],
-    gradient: "from-green-500/20 to-emerald-500/20",
+    gradient: "from-orange-500/20 to-red-500/20",
   },
   {
     title: "Danish Data Science Community - Henosia Vibe Coding Hackathon",
@@ -252,7 +275,7 @@ const activities = [
   {
     title: "A2B Danish Class - JuleHygge Celebration",
     description:
-      "Studying Danish Module 2 at A2B with fellow international students, celebrating Danish culture and traditions through JuleHygge festivities.",
+      "Studying Danish Module 3 at A2B with fellow international students, celebrating Danish culture and traditions through JuleHygge festivities.",
     icon: Users,
     logo: "/avatars/A2B-logo.png",
     photos: [

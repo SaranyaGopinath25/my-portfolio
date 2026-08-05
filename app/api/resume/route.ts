@@ -4,10 +4,11 @@ import { join } from 'path';
 
 export async function GET() {
   try {
-    const filePath = join(process.cwd(), 'public', 'Saranya_Gopinath_CV.pdf');
+    const filePath = join(process.cwd(), 'public', 'Saranya_Gopinath_CV_2026.pdf');
     const fileBuffer = await readFile(filePath);
+    const uint8 = new Uint8Array(fileBuffer);
 
-    return new NextResponse(fileBuffer, {
+    return new NextResponse(uint8, {
       headers: {
         'Content-Type': 'application/pdf',
         'Content-Disposition': 'attachment; filename="Saranya_Gopinath_CV_2026.pdf"',

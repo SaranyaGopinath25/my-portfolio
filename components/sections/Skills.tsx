@@ -127,6 +127,7 @@ export default function Skills() {
             </h3>
             <div className="flex flex-wrap justify-center gap-3">
               {[
+                "Next.js",
                 "TypeScript",
                 "Git",
                 "REST APIs",

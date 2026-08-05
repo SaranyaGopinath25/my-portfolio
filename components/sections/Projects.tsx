@@ -10,6 +10,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "SmartKurv - Salling Group Shopping App",
+    description:
+      "A smart shopping app that helps users find the best deals and discounts on Salling products in Bilka, Netto & Føtex. Built with Next.js, React, and Tailwind CSS, featuring Salling API integration for real-time product data.",
+    technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS", "Salling API Integration", "Vercel"],
+    github: "https://github.com/SaranyaGopinath25/SmartKurv-HYF",
+    demo: "https://smart-kurv-one.vercel.app/",
+    gradient: "from-blue-500/20 to-cyan-500/20",
+  },
+  {
     title: "Event Startup App",
     description:
       "Ticketing platform that helps people view and buy tickets for events in their city.",
@@ -91,15 +100,7 @@ const projects = [
     demo: "https://reminder-app-saranya.netlify.app/",
     gradient: "from-blue-500/20 to-cyan-500/20",
   },
-  {
-    title: "Email Verifier",
-    description:
-      "A tool to verify email addresses, checking for validity, deliverability, and potential spam traps. Helps businesses maintain clean email lists and improve deliverability rates.",
-    technologies: ["HTML", "Bootstrap", "JavaScript", "Node.js", "API Integration"],
-    github: "https://github.com/SaranyaGopinath25/EmailVerify",
-    demo: "#",
-    gradient: "from-orange-500/20 to-red-500/20",
-  },
+  
 ];
 
 export default function Projects() {
